@@ -7,7 +7,8 @@ Because remote working should not be an excuse for surveillance
 This script uses Auto Hot key. It's an automation scripting language for Windows.  
 
 * Install AHK => https://www.autohotkey.com
-* Download the file `alwaysGreen.ahk` anywhere on your computer
+* Download the project here: https://github.com/altertek/activity-faker/archive/v0.1.0.zip 
+* Extract the file `alwaysGreen.ahk` anywhere on your computer
 
 ## How to use
 
