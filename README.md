@@ -1,14 +1,36 @@
-# activity-faker
-Because remote working should not be an excuse for surveillance  
-
+# Activity-faker
+Because remote working should not be an excuse for surveillance
 
 ## Installation
+* Download the project from [the releases page](https://github.com/altertek/activity-faker/releases)
+* Extract the files anywhere on your computer
 
-This script uses Auto Hot key. It's an automation scripting language for Windows.  
+### Windows
+This script uses Auto Hot key (Installer [here](https://www.autohotkey.com)) It's an automation scripting language for Windows.
 
-* Install AHK => https://www.autohotkey.com
-* Download the project here: https://github.com/altertek/activity-faker/archive/v0.1.0.zip 
-* Extract the file `alwaysGreen.ahk` anywhere on your computer
+**On Windows**: Retrieve `alwaysGreen.ahk` from the archive and run
+
+    choco install autohotkey
+    .\alwaysGreen.ahk
+
+### Linux / MacOS / FreeBSD
+
+This script uses Xdotool. It's a tool to simulate keyboard and mouse input.
+
+**On Debian/Ubuntu**: Retrieve `activity.sh` from the archive and run
+
+    apt install xdotool
+    ./activity.sh
+
+**On MacOS**: Retrieve `activity.sh` from the archive and run
+
+    brew install xdotool
+    ./activity.sh
+
+**On FreeBSD**: Retrieve `activity.sh` from the archive and run
+
+    pkg install xdotool
+    ./activity.sh
 
 ## How to use
 
@@ -31,4 +53,4 @@ You can also update the number of pixels that the mouse should travel to.
 
 ### Compatibility
 
-Windows only
+Windows (AHK), Linux/MacOS/FreeBSD (Xdotool)
